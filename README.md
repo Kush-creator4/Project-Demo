@@ -1,2 +1,3 @@
 # Project-Demo
-This is my Github repository
+This is my Git repository!!
+Author-Kush Gupta
