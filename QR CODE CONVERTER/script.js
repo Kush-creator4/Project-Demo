@@ -22,4 +22,3 @@ download.addEventListener("click",()=>{
     console.log(imgAtr);
     download.setAttribute("href",imgAtr);
 });
-
