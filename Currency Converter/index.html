@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCY CONVERTER</title>
+    <link rel="STYLESHEET" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1> CURRENCY CONVERTER</h1>
+    <div class="container"></div>
+    <form>
+        <div class="amount">
+            <p>Enter the  Amount</p>
+            <input type="text" placeholder="Enter the amount">
+        </div>
+        <div class="dropdown">
+            <div class="from">
+                <h4><b>FROM</b></h4>
+                <div class="selectcon">
+                    <img src="https://flagsapi.com/US/flat/64.png"><!-- so many countries so not to download their flags takes lot of time and memeory space rather to use apis-->
+                    <select class="currency" name="from">
+                    </select>  
+                </div>
+            </div>
+            <i class="fa-solid fa-right-left"></i>
+            <div class="to">
+                <h4><b>TO</b></h4>
+                <div class="selectcon">
+                    <img src="https://flagsapi.com/IN/flat/64.png"><!-- so many countries so not to download their flags takes lot of time and memeory space rather to use apis-->
+                    <select class="currency" name="to" selected>
+                    </select>  
+                </div>
+            </div>
+        </div>
+        <h5 class="msg"></h5>
+        <button>GET THE RESULT</button>
+    </form>
+<!--<label>
+    Choose an ice cream flavor:
+    <select class="ice-cream" name="ice-cream">
+        <option value="">Select One …</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="sardine">Sardine</option>
+        <option value="vanilla">Vanilla</option>
+    </select>
+</label>
+
+<div class="result"></div>-->
+
+    <script src="app.js"></script>
+</body>
+</html>
