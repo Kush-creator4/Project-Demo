@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.877);
+    height:100vh;
+}
+.box{
+    width:400px;/* height should not fixed since height is variable*/
+    background-color: lightseagreen;
+    position: relative;
+    left:500px;
+    top:150px;
+    border-radius: 10px;
+}
+h1{
+    position: relative;
+    top:10px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    text-decoration: solid;
+}
+#qr-text{
+    width:80%;
+    height:30px;
+    margin:0 10px 0 10px;
+    position: relative;
+    left:25px;
+    top:30px;
+    font-size: 16px;
+    border-radius: 6px;
+    border:2px solid white;
+}
+div label{
+    color:white;
+    font-weight: bolder;
+    font-size: 18px;
+    position: relative;
+    top:40px;
+    left:20px;
+}
+#sizes{
+    height:30px;
+    text-align: center;
+    color:grey;
+    font-weight: 600;
+    border-radius: 4px;
+    width:110px;
+    position: relative;
+    top:40px;
+    left:170px;
+    font-size: 16px;
+}
+.qr-footer a{
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 36px;
+    margin-inline: 2px;
+    margin-bottom: 10px;
+    color:lightseagreen;
+    border-radius: 10px;
+    font-weight: 600;
+    position:static;
+}
+.qr-footer{
+    display: flex;
+    justify-content: center;
+}
+.qr-body{
+    display: grid;
+    place-items: center;
+    padding:20px;
+}
+
+.qr-body img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-block: 10px;
+    padding: 20px;
+    border: 0.5px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
