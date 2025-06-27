@@ -1,4 +1,4 @@
-# Project-Demo
-This is my first Git repository!!
+# Project
+This is my Git repository of all my projects!!
 <br>
 Author-Kush Gupta
